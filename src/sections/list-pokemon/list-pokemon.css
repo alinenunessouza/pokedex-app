@@ -1,0 +1,77 @@
+.pokemon_name {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(41, 124, 201, 1);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0 0 25px 25px;
+}
+
+.pokedex_icon {
+    margin: 0;
+    height: 100px;
+    width: 60px;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.image {
+    object-fit: cover;
+    /*The image keeps its original aspect ratio and the image area is completely covered.*/
+    width: 100%;
+}
+
+.container-cards {
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row
+}
+
+.add {
+    text-align: center;
+    color: black;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add button {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.add img {
+    height: 70px;
+    width: 70px;
+}
+
+.add span {
+    display: flex;
+}
+
+.form-control {
+    display: block;
+    width: 90vw;
+    height: 34px;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+

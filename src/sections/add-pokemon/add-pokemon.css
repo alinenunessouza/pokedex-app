@@ -1,0 +1,69 @@
+.pokeball_icon {
+    margin: 0;
+    height: 100px;
+    width: 60px;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.container_add-fields {
+    background-color: rgba(239, 239, 239, .75);;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: start;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+}
+
+.field input{
+    display: flex;
+    width: 90%;
+    background: transparent;
+    border:none;
+    border-bottom-style: solid ;
+    border-bottom-color: #ccc;
+    border-bottom-width: 1px;
+    color:  #ccc;
+}
+
+.field div {
+    color:  rgba(41, 124, 201, 1);
+}
+
+.new-pokemon_preview {
+    margin-top:20px;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.nav-Btn button {
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    color: rgba(41, 124, 201, 1);
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.nav-Btn button:hover{
+    background-color: black;
+    opacity: 0.5;
+}

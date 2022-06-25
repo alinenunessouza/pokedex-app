@@ -1,0 +1,23 @@
+.card {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; /*permite o nome do pokemon ficar abaixo da imagem dele*/
+    color: white;
+    justify-content: center; /*centraliza o conteúdo do card*/
+    width: 200px;
+    height: 250px;
+    border-radius: 25px;
+    background: rgba(234, 234, 234, 1);
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+}
+
+.card:hover  {
+    transform: scale(1.1);
+    transition-duration: .4s;
+    background-image: linear-gradient(to right top, #1d2e2d, #354d4c, #4f6f6d, #6b9290, #88b7b4, #88b7b4, #88b7b4, #88b7b4, #6b9290, #4f6f6d, #354d4c, #1d2e2d);
+}
